@@ -2,8 +2,8 @@ var readline = require('readline');
 var google = require('googleapis');
 var OAuth2 = google.auth.OAuth2;
 
-var CLIENT_ID = '275817081938-98r3p3mmik51sfaism7od7pjp0r2g02j.apps.googleusercontent.com',
-    CLIENT_SECRET = 'ht9179iHpWJu6NhCNyUXdOVX',
+var CLIENT_ID = 'MY_CLIENT_ID',
+    CLIENT_SECRET = 'MY_CLIENT_SECRET',
     REDIRECT_URL = 'urn:ietf:wg:oauth:2.0:oob',
     SCOPE = 'https://www.googleapis.com/auth/drive.file';
 
